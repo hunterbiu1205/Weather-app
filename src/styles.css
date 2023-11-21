@@ -1,0 +1,110 @@
+body {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 1000px;
+  max-width: 1200px;
+  margin: 0 auto; /*this should center the div*/
+}
+
+.app-flex {
+  display: flex;
+  /* justify-content: center; */
+  padding-left: 20px;
+  margin-top: 100px;
+}
+
+#weather-form h1 {
+  font-size: 60px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#weather-form {
+  margin-right: 120px;
+}
+
+input#city-input {
+  font-size: 18px;
+  padding: 10px;
+  border: solid 2px #2b3237;
+  border-radius: 3px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px;
+  background: #2b3237;
+  color: #fff;
+  border: solid 2px #2b3237;
+  border-radius: 3px;
+}
+
+div#weather h3 {
+  text-align: center;
+}
+
+.today-weather {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.current-weather-icon {
+  width: 100px;
+}
+
+.current-temp {
+  font-size: 65px;
+  font-weight: 500;
+  padding-right: 1rem;
+  border-right: 2px solid #ccc;
+}
+
+.today-weather-column {
+  padding-left: 1rem;
+}
+
+.today-weather-desc {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.forecast-app h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+div#forecast {
+  display: flex;
+}
+
+.forecast-item {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.forecast-item p {
+  margin: 5px 0;
+  text-transform: capitalize;
+}
+
+.forecast-item h4 {
+  margin: 5px 0;
+}
+
+.forecast-item img {
+  margin: 10px 0;
+}
