@@ -1,6 +1,6 @@
 # Weather-app
 
-**Demo:** [click here](https://hntgn2-1234.csb.app/)
+**Demo:** [click here](https://codesandbox.io/p/github/hunterbiu1205/Weather-app)
 
 **Idea from:** [click here](https://github.com/florinpop17/app-ideas)
 
@@ -12,4 +12,3 @@ A weather application to get the temperature, weather condition and whether it i
 
 - [x] Enter the name of a city into the input field.
 - [x] By pressing enter, the user submits the name of the city which updates the DOM with the temperature, weather condition, image of day or night and weather condition icon.
-
